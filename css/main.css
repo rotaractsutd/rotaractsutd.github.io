@@ -12,17 +12,216 @@
     height: 80vh;
 }
 
+/* For desktops */
+@media screen and (min-width: 769px) {
+    .navbar {
+        /* background-color: #D51968 !important; */
+        background: transparent !important;
+        height: 15vh;
+    }
 
-.navbar {
-    /* background-color: #D51968 !important; */
-    background: transparent !important;
-    height: 10vh;
+    .rotaractlogo {
+        height: 15vh;
+        width: 25vw;
+    }
+
+    .navbar.scrolled {
+        background-color: #fff !important;
+        transition: background-color 200ms linear;
+        border-bottom: 1px solid black !important;
+        height: 10vh;
+      }
+    
+    .rotaractlogo.scrolled {
+        height: 8vh;
+        width:15vw;
+    }
+
+    .sector {
+        height: 60vh;
+    }
+    
+    .sector-column {
+        float: left;
+        width: 33.33%;
+        padding: 6%;
+    }
+    
+    .sector-column-text {
+        font-family: Roboto;
+        font-weight: 800;
+        font-size: 1.7vw;
+        text-align: center;
+        padding-top: 1.5vw;
+    }
+    
+    .sector-clipart1 {
+        width: 14vw;
+        height: 25vh;
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+    .sector-clipart2 {
+        width: 12vw;
+        height: 25vh;
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+    .sector-clipart3 {
+        width: 10vw;
+        height: 25vh;
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+    .activity-ocip {
+        height: 50vh;
+    }
+    
+    .activity-ocip-column1 {
+        float: left;
+        width: 50%;
+        background-image: url("../img/vietnam_icon.jpg");
+        background-repeat: no-repeat;
+        background-position: center; 
+        position: relative;
+        height: 50vh;
+        background-size: contain;
+        background-size: cover;
+    
+        transition: .45s ease;
+        filter:brightness(35%);
+    }
+    
+    .activity-ocip-column1:hover {
+        filter:brightness(95%);
+        text-decoration: none;
+    }
+    
+    .activity-ocip-column2 {
+        float: left;
+        width: 50%;
+        background-image: url("../img/vietnam_icon.jpg");
+        background-repeat: no-repeat;
+        background-position: center; 
+        position: relative;
+        height: 50vh;
+        background-size: contain;
+        background-size: cover;
+    
+        transition: .45s ease;
+        filter:brightness(35%);
+    }
+
+    .activity-ocip-column2:hover {
+        filter:brightness(95%);
+        text-decoration: none;
+    }
+    
+    .activity-text {
+        text-decoration: none;
+        font-family: Arvo;
+        font-weight: 900;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 3vw;
+        color: white;
+        padding-top: 18vh;
+        word-spacing: 999999px;
+    
+    }
+
+    .activity-local {
+        height: 50vh;
+    }
+
+    .activity-local-column1 {
+        float: left;
+        width: 33.3%;
+        background-image: url("../img/vietnam_icon.jpg");
+        background-repeat: no-repeat;
+        background-position: center; 
+        position: relative;
+        height: 50vh;
+        background-size: contain;
+        background-size: cover;
+    
+        transition: .45s ease;
+        filter:brightness(35%);
+    }
+
+    .activity-local-column2 {
+        float: left;
+        width: 33.3%;
+        background-image: url("../img/vietnam_icon.jpg");
+        background-repeat: no-repeat;
+        background-position: center; 
+        position: relative;
+        height: 50vh;
+        background-size: contain;
+        background-size: cover;
+    
+        transition: .45s ease;
+        filter:brightness(35%);
+    }
+
+    .activity-local-column3 {
+        float: left;
+        width: 33.3%;
+        background-image: url("../img/vietnam_icon.jpg");
+        background-repeat: no-repeat;
+        background-position: center; 
+        position: relative;
+        height: 50vh;
+        background-size: contain;
+        background-size: cover;
+    
+        transition: .45s ease;
+        filter:brightness(35%);
+    }
+
+    .activity-local-column1:hover {
+        filter:brightness(95%);
+        text-decoration: none;
+    }
+
+    .activity-local-column2:hover {
+        filter:brightness(95%);
+        text-decoration: none;
+    }
+
+    .activity-local-column3:hover {
+        filter:brightness(95%);
+        text-decoration: none;
+    }
+
+
 }
 
-.navbar.scrolled {
-    background-color: #fff !important;
-    transition: background-color 200ms linear;
-  }
+/* For mobiles & tablets  */
+@media screen and (max-width: 768px) {
+    .navbar {
+        background-color: #fff !important;
+        border-bottom: 1px solid black !important;
+    }
+
+    .rotaractlogo {
+        height: 8vh;
+        width:40vw;
+    }
+
+    .navbar-toggler {
+        background-color: whitesmoke !important;
+    }
+
+}
+
+
 
 .nav-link {
     color: black !important;
@@ -313,6 +512,8 @@ background-color:#DD2A7B
     background-repeat: no-repeat;
     background-position: center; 
     position: relative;
+    background-size: contain;
+    background-size: cover;
 }
 
 #intro-word {
@@ -321,5 +522,7 @@ background-color:#DD2A7B
     text-transform: uppercase;
     text-align: center;
     padding-top: 35vh;
-    font-size: 48px;
+    font-size: 3vw;
 }
+
+

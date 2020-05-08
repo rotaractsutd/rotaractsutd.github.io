@@ -10,18 +10,23 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet'>
 	<link rel="stylesheet" href="./css/main.css">
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
     
-	<script>
+    <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    
+    <script>
         $(function () {
             $(document).scroll(function () {
                 var $nav = $(".navbar");
+                var $logo = $(".rotaractlogo");
                 $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+                $logo.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+
             });
         });
     </script>
@@ -34,7 +39,7 @@
 			<div class="container-lg">
 				<!-- Brand -->
 				<a href= "#" class="navbar-brand">
-					<img src="img/rotaract_logo.png" alt="whitelogo" width="200" height="60">
+					<img class = "rotaractlogo" src="img/rotaract_logo.png" alt="whitelogo">
 				</a>
 		
 				<!-- Toggle Button -->
@@ -106,7 +111,49 @@
                 <span class="carousel-control-next-icon"></span>
             </a>
         </div>
-	</div>
+    </div>
+    
+    <div class = "sector">
+        <div class = "sector-column">
+            <img class = "sector-clipart1" src="img/comm-serve.png" alt="commserve">
+            <p class = "sector-column-text">Community Service</p>
+        </div>
+
+        <div class = "sector-column">
+            <img class = "sector-clipart2" src="img/prof-dev.png" alt="profdev">
+            <p class = "sector-column-text">Professional Development</p>
+        </div>
+
+        <div class = "sector-column">
+            <img class = "sector-clipart3" src="img/tech-design.png" alt="techdesign">
+            <p class = "sector-column-text">Tech & Design Solutions</p>
+        </div>
+    </div>
+
+    <div class = "activity">
+
+        <div class = "activity-ocip">
+            <a class = "activity-ocip-column1" href="vietnam.html">
+                <p class = "activity-text">Vietnam OCIP</p>
+            </a>
+            <a class = "activity-ocip-column2" href="laos.html">
+                <p class = "activity-text">Laos OCIP</p>
+            </a>
+        </div>
+
+        <div class = "activity-local">
+            <a class = "activity-local-column1" href="stem.html">
+                <p class = "activity-text">Stem Workshops</p>
+            </a>
+            <a class = "activity-local-column2" href="yeah.html">
+                <p class = "activity-text">Yeah Programme</p>
+            </a>
+            <a class = "activity-local-column3" href="activities.html">
+                <p class = "activity-text">Techno Forum</p>
+            </a>
+        </div>
+
+    </div>
 
     <!-- Site footer -->
     <footer class="site-footer">
