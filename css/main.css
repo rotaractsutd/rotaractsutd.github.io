@@ -30,6 +30,16 @@
         height: 15vh;
     }
 
+    .nav-link {
+        color: black !important;
+        font-size: 1.3vw !important;
+        font-weight: 500 !important;
+    }
+    
+    .nav-link:hover {
+        color: #444444 !important;
+      }
+
     .rotaractlogo {
         height: 15vh;
         width: 25vw;
@@ -62,7 +72,7 @@
     
     .sector-column {
         float: left;
-        width: 33.33%;
+        width: 25%;
         padding: 6%;
     }
     
@@ -81,6 +91,14 @@
         margin-left:auto;
         margin-right:auto;
     }
+
+    .sector-clipart4 {
+        width: 10vw;
+        height: 25vh;
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+    }
     
     .sector-clipart2 {
         width: 12vw;
@@ -91,7 +109,7 @@
     }
     
     .sector-clipart3 {
-        width: 10vw;
+        width: 9vw;
         height: 25vh;
         display: block;
         margin-left:auto;
@@ -105,7 +123,7 @@
     .activity-ocip-column1 {
         float: left;
         width: 50%;
-        background-image: url("../img/vietnam_icon.jpg");
+        background-image: url("../img/viet_icon.jpg");
         background-repeat: no-repeat;
         background-position: center; 
         position: relative;
@@ -125,7 +143,7 @@
     .activity-ocip-column2 {
         float: left;
         width: 50%;
-        background-image: url("../img/vietnam_icon.jpg");
+        background-image: url("../img/laos_icon.jpg");
         background-repeat: no-repeat;
         background-position: center; 
         position: relative;
@@ -162,7 +180,7 @@
     .activity-local-column1 {
         float: left;
         width: 33.3%;
-        background-image: url("../img/vietnam_icon.jpg");
+        background-image: url("../img/stem2_icon.jpg");
         background-repeat: no-repeat;
         background-position: center; 
         position: relative;
@@ -177,7 +195,7 @@
     .activity-local-column2 {
         float: left;
         width: 33.3%;
-        background-image: url("../img/vietnam_icon.jpg");
+        background-image: url("../img/yeah_icon.jpg");
         background-repeat: no-repeat;
         background-position: center; 
         position: relative;
@@ -192,7 +210,7 @@
     .activity-local-column3 {
         float: left;
         width: 33.3%;
-        background-image: url("../img/vietnam_icon.jpg");
+        background-image: url("../img/techno_logo.jpg");
         background-repeat: no-repeat;
         background-position: center; 
         position: relative;
@@ -232,35 +250,11 @@
     }
     
     .carousel-inner > .carousel-item > .carousel-column-left > .circle-frame{
-        width: 15vw;
-        height: 30vh;
+        width: 260px;
+        height: 270px;
         display: block;
         margin-left:auto;
         margin-right:auto;
-    }
-
-    .reflection-name {
-        text-align: center;
-        font-family: Arvo;
-        font-weight: 600;
-        text-transform: uppercase;
-        text-align: center;
-        font-size: 1vw;
-        font-style: italic;
-        color: #6e6e6e;
-        padding-top: 2vh;
-    }
-
-    .reflection-name-2 {
-        text-align: center;
-        font-family: Arvo;
-        font-weight: 600;
-        text-transform: uppercase;
-        text-align: center;
-        font-size: 1vw;
-        font-style: italic;
-        color: #6e6e6e;
-        margin-top:-2vh;
     }
 
     .carousel-inner > .carousel-item > .carousel-column-left > .circle-frame > img {
@@ -272,8 +266,34 @@
         width: 100%;
         height:100%;
         border-radius: 50%;
-        border: 2px solid red;
+
     }
+
+    .reflection-name {
+        text-align: center;
+        font-family: Arvo;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 14px;
+        font-style: italic;
+        color: #6e6e6e;
+        padding-top: 20px;
+    }
+
+    .reflection-name-2 {
+        text-align: center;
+        font-family: Arvo;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 14px;
+        font-style: italic;
+        color: #6e6e6e;
+        margin-top:-16px;
+    }
+
+
 
     .reflection-text:before {
         content: open-quote;
@@ -282,7 +302,7 @@
         left: -10px;
         position: relative;
         top: 30px;
-        color: rgb(65, 174, 218);
+        color: #D51968;
         font-size: 3em;
       }
       .reflection-text:after {
@@ -292,22 +312,78 @@
         left: 10px;
         position: relative;
         top: 35px;
-        color: rgb(65, 174, 218);
+        color: #D51968;
         font-size: 3em;
       }
 
       .reflection-text {
-        font-size: 4vh;
+        font-size: 24px;
         quotes: "\201C" "\201D" "\2018" "\2019";
         padding: 10px 20px;
         line-height: 1.4;
       }
 
+      .cta-body {
+        height:60vh;
+        background-image: url("../img/wallpaper.png");
+        background-repeat: no-repeat;
+        background-position: center; 
+        position: relative;
+        background-size: contain;
+        background-size: cover;
+        text-align: center;
+
+      }
+
+      .cta-text-1 {
+        font-family: Arvo;
+        font-weight: 900;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 2vw;
+        padding-top: 10vh;
+      }
+
+      .cta-text-2 {
+        font-family: Arvo;
+        font-weight: 900;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 3vw;
+      }
+
+      .cta-impt {
+          color: #D51968;
+      }
+
+      .cta-join {
+        background-color: rgb(8, 152, 219);
+        border: none;
+        color: white;
+        padding: 8px 28px;
+        text-align: center;
+        font-size: 1.3vw;
+        opacity: 0.6;
+        transition: 0.3s;
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 20px;
+        font-family: Roboto;
+        font-weight:400;
+        margin-top: 8vh;
+        text-transform: uppercase;
+      }
+
+      .cta-join:hover {
+        opacity: 1;
+        border: 1px solid black;
+      }
 
 
 
 
-}
+
 
 /* For mobiles & tablets  */
 @media screen and (max-width: 768px) {
@@ -329,15 +405,7 @@
 
 
 
-.nav-link {
-    color: black !important;
-    font-size: 18px !important;
-    font-weight: 500 !important;
-}
 
-.nav-link:hover {
-    color: #444444 !important;
-  }
 
 
 
