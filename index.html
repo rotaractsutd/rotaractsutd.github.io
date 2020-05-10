@@ -18,6 +18,9 @@
     
     <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+    <link href="https://unpkg.com/aos@2.3.0/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
     
     <script>
         $(function () {
@@ -29,9 +32,13 @@
 
             });
         });
+        
+        $(function() {
+            AOS.init({
+                duration: 1000,
+            })
+        });
 
-        var spanWidth = $('#intro p').width();
-        $('#intro').animate( { width: spanWidth }, 3000 );
 
     </script>
 
@@ -55,23 +62,23 @@
 				<div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="collapsibleNavbar">
 					<ul class="navbar-nav ml-auto" id = "navword">
 						<li class="nav-item">
-                            <a href= "about.html" class="nav-link">About</a>
+                            <a href= "#" class="nav-link">About</a>
                         </li>    
 						<li class="nav-item">
-							<a href="yeah.html" class="nav-link">Local CIP</a>
+							<a href="#" class="nav-link">Local CIP</a>
                         </li>
                         
                         <li class="nav-item">
-							<a href="vietnam.html" class="nav-link">Overseas CIP</a>
+							<a href="#" class="nav-link">Overseas CIP</a>
                         </li>
 						<li class="nav-item">
-							<a href="activities.html" class="nav-link">Activities</a>
+							<a href="#" class="nav-link">Activities</a>
 						</li>
 						<li class="nav-item">
-							<a href="exco.html" class="nav-link">Exco</a>
+							<a href="#" class="nav-link">Exco</a>
 						</li>
 						<li class="nav-item">
-							<a href="join.html" class="nav-link">Join Us</a>
+							<a href="#" class="nav-link">Join Us</a>
 						</li>
 					</ul>
 				</div>
@@ -113,23 +120,23 @@
     
     <div class = "sector">
         <div class = "sector-column">
-            <img class = "sector-clipart1" src="img/comm-serve.png" alt="commserve">
-            <p class = "sector-column-text">Community Service</p>
+            <img class = "sector-clipart1" src="img/comm-serve.png" alt="commserve"data-aos="flip-left">
+            <p class = "sector-column-text" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Community Service</p>
         </div>
 
         <div class = "sector-column">
-            <img class = "sector-clipart4" src="img/intl-serve.png" alt="intlserve">
-            <p class = "sector-column-text">International Service</p>
+            <img class = "sector-clipart4" src="img/intl-serve.png" alt="intlserve"  data-aos="flip-left">
+            <p class = "sector-column-text" data-aos="fade-up" data-aos-anchor-placement="top-bottom">International Service</p>
         </div>
 
         <div class = "sector-column">
-            <img class = "sector-clipart2" src="img/prof-dev.png" alt="profdev">
-            <p class = "sector-column-text">Professional Development</p>
+            <img class = "sector-clipart2" src="img/prof-dev.png" alt="profdev" data-aos="flip-left">
+            <p class = "sector-column-text" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Professional Development</p>
         </div>
 
         <div class = "sector-column">
-            <img class = "sector-clipart3" src="img/tech-design.png" alt="techdesign">
-            <p class = "sector-column-text">Tech & Design Solutions</p>
+            <img class = "sector-clipart3" src="img/tech-design.png" alt="techdesign" data-aos="flip-left">
+            <p class = "sector-column-text" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Tech & Design Solutions</p>
         </div>
     </div>
 
@@ -167,18 +174,18 @@
                 <li data-target="#carousel-reflection-body" data-slide-to="2" style="background-color:#333333;"></li>
             </ul>
 
-            <div class="carousel-inner" style = "height: 480px;">
+            <div class="carousel-inner" style = "height: 600px;">
                 <div class="carousel-item active">
 
                     <div class = "carousel-column-left">
                         <div class = "circle-frame">
-                            <img class = "reflection-face" src="img/weeping.jpg" alt="face1">
+                            <img class = "reflection-face" src="img/weeping.jpg" alt="face1"data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                         </div>
-                        <p class = "reflection-name">Kuah Wee Ping,</p>
-                        <p class = "reflection-name-2">President of Rotaract Club</p>
+                        <p class = "reflection-name" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Kuah Wee Ping,</p>
+                        <p class = "reflection-name-2" data-aos="fade-up" data-aos-anchor-placement="top-bottom">President of Rotaract Club</p>
                     </div>
                     <div class = "carousel-column-right">
-                        <p class = "reflection-text">The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.</p>
+                        <p class = "reflection-text" data-aos="fade-up" data-aos-anchor-placement="top-bottom">The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog.</p>
                     </div>
 
                 </div>
@@ -220,8 +227,8 @@
     </div>
 
     <div class = "cta-body">
-        <p class = "cta-text-1">Have a <span class = "cta-impt">passion</span> to serve?</p>
-        <p class = "cta-text-2"><span class = "cta-impt">Volunteer</span> with us today!</p>
+        <p class = "cta-text-1" data-aos="fade-up" data-aos-anchor-placement="center-bottom">Have a <span class = "cta-impt">passion</span> to serve?</p>
+        <p class = "cta-text-2" data-aos="fade-up" data-aos-anchor-placement="center-bottom"><span class = "cta-impt">Volunteer</span> with us today!</p>
         <button class = "cta-join">Join Us</button>
     </div>
 
