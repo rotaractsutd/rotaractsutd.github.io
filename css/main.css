@@ -2,16 +2,6 @@
     box-sizing: border-box;
 }
 
-/* #body-sub{
-    padding-top: 60px;
-} */
-
-/* Make the image fully responsive */
-.carousel-inner img {
-    width: 100%;
-    height: 80vh;
-}
-
 .carousel-indicators .active{
     background-color: #26272b;
 }
@@ -23,9 +13,8 @@
 
 
 /* For desktops */
-@media screen and (min-width: 769px) {
-    .navbar {
-        /* background-color: #D51968 !important; */
+@media screen and (min-width: 992px), (orientation: landscape) {
+    /* .navbar {
         background: transparent !important;
         height: 150px;
     }
@@ -39,7 +28,7 @@
     }
 
     #collapsibleNavbar {
-        margin-right: -8%;
+        margin-right: -5%;
     }
     
     .nav-link:hover {
@@ -50,7 +39,7 @@
         height: 120px;
         width: 400px;
         float:left;
-        margin-left:-100px;
+        margin-left:-5%;
     }
 
     .navbar.scrolled {
@@ -73,9 +62,117 @@
     
     .dropdown-item {
         color: black;
+    } */
+
+    @media screen and (min-width: 992px) {
+        .navbar {
+            background: transparent !important;
+            height: 14vh;
+        }
+    
+        .nav-link {
+            color: black !important;
+            font-size: 1.2vw !important;
+            font-weight: 600 !important;
+            font-family: Roboto;
+    
+        }
+    
+        .navbar-toggler {
+            background-color: #26272b !important;
+        }
+    
+        #collapsibleNavbar {
+            margin-right: -5%;
+        }
+        
+        .nav-link:hover {
+            color: #D51968 !important;
+          }
+    
+        .rotaractlogo {
+            height: 12vh;
+            width: 25vw;
+            float:left;
+            margin-left:-5%;
+        }
+    
+        .navbar.scrolled {
+            background-color: #fff !important;
+            transition: background-color 200ms linear;
+            border-bottom: 1px solid black !important;
+            height: 10vh;
+          }
+        
+        .rotaractlogo.scrolled {
+            height: 8vh;
+            width:17vw;
+            transition: 0.2s;
+        }
     }
 
-    .sector {
+    @media screen and (max-width: 991.5px){
+        .navbar {
+            background-color: #26272b !important;
+            border-bottom: 1px solid whitesmoke !important;
+        }
+    
+        .rotaractlogo {
+            height: 20vh;
+            width:40vw;
+        }
+    
+        .nav-link {
+            color: whitesmoke !important;
+            font-size: 3vw !important;
+            font-weight: 500 !important;
+            font-family: Roboto;
+    
+        }
+    
+        .navbar-toggler {
+            background-color: #26272b !important;
+        }
+    }
+
+
+
+
+    .intro-header {
+        height:80vh;
+        background-image: url("../img/wallpaper.png");
+        background-repeat: no-repeat;
+        background-position: center; 
+        position: relative;
+        background-size: contain;
+        background-size: cover;
+    }
+    
+    #intro-word {
+        font-family: Arvo;
+        font-weight: 900;
+        text-transform: uppercase;
+        padding-top: 35vh;
+        text-align: center;
+        font-size: 3vw;
+        animation: type 2s steps(100, end);
+        width:100%;
+        overflow:hidden;
+        white-space:nowrap;
+        margin:0 auto;
+    }
+    @keyframes type{ 
+        from { 
+                width: 0%; 
+                } 
+            }
+
+    .carousel-inner img {
+        width: 100%;
+        height: 80vh;
+    }
+
+    /* .sector {
         height: 420px;
     }
     
@@ -124,8 +221,55 @@
         display: block;
         margin-left:auto;
         margin-right:auto;
+    } */
+    
+    .sector {
+        height: 50vh;
     }
     
+    .sector-column {
+        float: left;
+        width: 25%;
+        padding-top:10vh;
+    }
+    
+    .sector-column-text {
+        font-family: Roboto;
+        font-weight: 800;
+        font-size: 1.7vw;
+        text-align: center;
+        padding-top: 1.5vw;
+    }
+    
+    .sector-clipart1 {
+
+        height: 20vh;
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .sector-clipart4 {
+        height: 20vh;
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+    .sector-clipart2 {
+        height: 20vh;
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+    .sector-clipart3 {
+        height: 20vh;
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
     .activity-ocip {
         height: 50vh;
     }
@@ -247,6 +391,10 @@
         text-decoration: none;
     }
 
+    /* #carousel-inner-reflection {
+        height: 600px;
+    }
+
     .carousel-column-left {
         float: left;
         width:40%;
@@ -327,6 +475,92 @@
         quotes: "\201C" "\201D" "\2018" "\2019";
         padding: 10px 20px;
         line-height: 1.4;
+      } */
+
+      #carousel-inner-reflection {
+        height: 60vh;
+    }
+
+    .carousel-column-left {
+        float: left;
+        width:40%;
+        margin-top: 10vh;
+        
+    }
+    .carousel-column-right {
+        float:left;
+        width:45%;
+        margin-top: 10vh;
+    }
+    
+    .carousel-inner > .carousel-item > .carousel-column-left > .circle-frame{
+        width: 18vw;
+        height: 30vh;
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .carousel-inner > .carousel-item > .carousel-column-left > .circle-frame > img {
+
+        width: 100%;
+        height:100%;
+        border-radius: 50%;
+
+    }
+
+    .reflection-name {
+        text-align: center;
+        font-family: Arvo;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1vw;
+        font-style: italic;
+        color: #6e6e6e;
+        padding-top: 2vh;
+    }
+
+    .reflection-name-2 {
+        text-align: center;
+        font-family: Arvo;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1vw;
+        font-style: italic;
+        color: #6e6e6e;
+        margin-top:-1.5vh;
+    }
+
+
+
+    .reflection-text:before {
+        content: open-quote;
+        display: inline;
+        line-height: 0;
+        left: -10px;
+        position: relative;
+        top: 30px;
+        color: #D51968;
+        font-size: 3em;
+      }
+      .reflection-text:after {
+        content: close-quote;
+        display: inline;
+        line-height: 0;
+        left: 10px;
+        position: relative;
+        top: 35px;
+        color: #D51968;
+        font-size: 3em;
+      }
+
+      .reflection-text {
+        font-size: 2vw;
+        quotes: "\201C" "\201D" "\2018" "\2019";
+        padding: 10px 20px;
+        line-height: 1.4;
       }
 
       .cta-body {
@@ -392,10 +626,10 @@
 
 
 /* For mobiles & tablets  */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991.5px) and (orientation:portrait){
     .navbar {
-        background-color: #fff !important;
-        border-bottom: 1px solid black !important;
+        background-color: #26272b !important;
+        border-bottom: 1px solid whitesmoke !important;
     }
 
     .rotaractlogo {
@@ -403,9 +637,319 @@
         width:40vw;
     }
 
-    .navbar-toggler {
-        background-color: whitesmoke !important;
+    .nav-link {
+        color: whitesmoke !important;
+        font-size: 3vw !important;
+        font-weight: 500 !important;
+        font-family: Roboto;
+
     }
+
+    .navbar-toggler {
+        background-color: #26272b !important;
+    }
+
+    .intro-header {
+        height:50vh;
+        background-image: url("../img/wallpaper.png");
+        background-repeat: no-repeat;
+        background-position: center; 
+        position: relative;
+        background-size: contain;
+        background-size: cover;
+    }
+    
+    #intro-word {
+        font-family: Arvo;
+        font-weight: 900;
+        text-transform: uppercase;
+        padding-top: 28vh;
+        text-align: center;
+        font-size: 3vw;
+        animation: type 2s steps(100, end);
+        width:100%;
+        overflow:hidden;
+        white-space:nowrap;
+        margin:0 auto;
+    }
+    @keyframes type{ 
+        from { 
+                width: 0%; 
+                } 
+    }
+
+    .carousel-inner img {
+        width: 100%;
+        height: 40vh;
+    }
+    
+    .sector-column {
+
+        float: left;
+        width: 50%;
+    }
+    
+    .sector-column-text {
+        font-family: Roboto;
+        font-weight: 600;
+        font-size: 4vw;
+        text-align: center;
+        padding-top: 3vh;
+    }
+    
+    .sector-clipart1 {
+
+        height: 15vh;
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 5vh;
+    }
+
+    .sector-clipart4 {
+        height: 15vh;
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 5vh;
+    }
+    
+    .sector-clipart2 {
+        height: 15vh;
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 5vh;
+    }
+    
+    .sector-clipart3 {
+        height: 15vh;
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: 5vh;
+    }
+
+    .activity-ocip {
+        height: 30vh;
+    }
+    
+    .activity-ocip-column1 {
+        float: left;
+        width: 50%;
+        background-image: url("../img/viet_icon.jpg");
+        background-repeat: no-repeat;
+        background-position: center; 
+        position: relative;
+        height: 30vh;
+        background-size: contain;
+        background-size: cover;
+        filter:brightness(75%);
+    }
+
+    
+    .activity-ocip-column2 {
+        float: left;
+        width: 50%;
+        background-image: url("../img/laos_icon.jpg");
+        background-repeat: no-repeat;
+        background-position: center; 
+        position: relative;
+        height: 30vh;
+        background-size: contain;
+        background-size: cover;
+        filter:brightness(75%);
+
+    }
+
+    
+    .activity-text {
+        text-decoration: none;
+        font-family: Arvo;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 3.5vw;
+        color: white;
+        padding-top: 11vh;
+        word-spacing: 999999px;
+    
+    }
+
+    .activity-local {
+        height: 30vh;
+    }
+
+    .activity-local-column1 {
+        float: left;
+        width: 33.3%;
+        background-image: url("../img/stem2_icon.jpg");
+        background-repeat: no-repeat;
+        background-position: center; 
+        position: relative;
+        height: 30vh;
+        background-size: contain;
+        background-size: cover;
+        filter:brightness(75%);
+        margin-bottom:10%;
+    }
+
+    .activity-local-column2 {
+        float: left;
+        width: 33.3%;
+        background-image: url("../img/yeah_icon.jpg");
+        background-repeat: no-repeat;
+        background-position: center; 
+        position: relative;
+        height: 30vh;
+        background-size: contain;
+        background-size: cover;
+        filter:brightness(75%);
+        margin-bottom:10%;
+    }
+
+    .activity-local-column3 {
+        float: left;
+        width: 33.3%;
+        background-image: url("../img/techno_logo.jpg");
+        background-repeat: no-repeat;
+        background-position: center; 
+        position: relative;
+        height: 30vh;
+        background-size: contain;
+        background-size: cover;
+        filter:brightness(75%);
+        margin-bottom:10vh;
+    }
+
+    #carousel-inner-reflection {
+        height: 80vh;
+    }
+
+
+    .carousel-inner > .carousel-item > .carousel-column-left > .circle-frame{
+        width: 20vh;
+        height: 35vw;
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .carousel-inner > .carousel-item > .carousel-column-left > .circle-frame > img {
+
+        width: 100%;
+        height:100%;
+        border-radius: 50%;
+
+    }
+
+    .reflection-name {
+        text-align: center;
+        font-family: Arvo;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 3vw;
+        font-style: italic;
+        color: #6e6e6e;
+        padding-top: 5vh;
+    }
+
+    .reflection-name-2 {
+        text-align: center;
+        font-family: Arvo;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 3vw;
+        font-style: italic;
+        color: #6e6e6e;
+        margin-top:-2vh;
+    }
+
+
+    .reflection-text:before {
+        content: open-quote;
+        display: inline;
+        line-height: 0;
+        left: -2.5vw;
+        position: relative;
+        top: 2.5vh;
+        color: #D51968;
+        font-size: 3em;
+      }
+      .reflection-text:after {
+        content: close-quote;
+        display: inline;
+        line-height: 0;
+        left: 2.5vw;
+        position: relative;
+        top: 3vh;
+        color: #D51968;
+        font-size: 3em;
+      }
+
+      .reflection-text {
+        font-size: 5vw;
+        quotes: "\201C" "\201D" "\2018" "\2019";
+        padding: 10px 20px;
+        line-height: 1.4;
+        text-align: center;
+      }
+
+      .cta-body {
+        height:35vh;
+        background-image: url("../img/wallpaper.png");
+        background-repeat: no-repeat;
+        background-position: center; 
+        position: relative;
+        background-size: contain;
+        background-size: cover;
+        text-align: center;
+        margin-top: 5vh;
+
+      }
+
+      .cta-text-1 {
+        font-family: Arvo;
+        font-weight: 900;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 4vw;
+        padding-top: 8vh;
+      }
+
+      .cta-text-2 {
+        font-family: Arvo;
+        font-weight: 900;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 5vw;
+      }
+
+      .cta-impt {
+          color: #D51968;
+      }
+
+      .cta-join {
+        background-color: rgb(8, 152, 219);
+        border: none;
+        color: white;
+        padding: 8px 28px;
+        text-align: center;
+        font-size: 2vw;
+        opacity: 1;
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 20px;
+        font-family: Roboto;
+        font-weight:400;
+        margin-top: 3vh;
+        text-transform: uppercase;
+      }
+
+
 
 }
 
@@ -679,34 +1223,7 @@ background-color:#DD2A7B
     text-transform: uppercase;
 }
 
-.intro-header {
-    height:80vh;
-    background-image: url("../img/wallpaper.png");
-    background-repeat: no-repeat;
-    background-position: center; 
-    position: relative;
-    background-size: contain;
-    background-size: cover;
-}
 
-#intro-word {
-    font-family: Arvo;
-    font-weight: 900;
-    text-transform: uppercase;
-    padding-top: 35vh;
-    text-align: center;
-    font-size: 3vw;
-    animation: type 2s steps(100, end);
-    width:100%;
-    overflow:hidden;
-    white-space:nowrap;
-    margin:0 auto;
-}
-@keyframes type{ 
-    from { 
-            width: 0%; 
-            } 
-        }
 
 
 
