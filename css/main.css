@@ -744,7 +744,8 @@
         height: 30vh;
         background-size: contain;
         background-size: cover;
-        filter:brightness(75%);
+        transition: .45s ease;
+        filter:brightness(65%);
     }
 
     
@@ -758,7 +759,8 @@
         height: 30vh;
         background-size: contain;
         background-size: cover;
-        filter:brightness(75%);
+        transition: .45s ease;
+        filter:brightness(65%);
 
     }
 
@@ -790,7 +792,8 @@
         height: 30vh;
         background-size: contain;
         background-size: cover;
-        filter:brightness(75%);
+        filter:brightness(65%);
+        transition: .45s ease;
         margin-bottom:10%;
     }
 
@@ -804,7 +807,8 @@
         height: 30vh;
         background-size: contain;
         background-size: cover;
-        filter:brightness(75%);
+        filter:brightness(65%);
+        transition: .45s ease;
         margin-bottom:10%;
     }
 
@@ -818,8 +822,35 @@
         height: 30vh;
         background-size: contain;
         background-size: cover;
-        filter:brightness(75%);
+        filter:brightness(65%);
+        transition: .45s ease;
         margin-bottom:10vh;
+    }
+
+    .activity-ocip-column1:hover {
+        filter:brightness(95%);
+        text-decoration: none;
+    }
+
+    .activity-ocip-column2:hover {
+        filter:brightness(95%);
+        text-decoration: none;
+    }
+    
+
+    .activity-local-column1:hover {
+        filter:brightness(95%);
+        text-decoration: none;
+    }
+
+    .activity-local-column2:hover {
+        filter:brightness(95%);
+        text-decoration: none;
+    }
+
+    .activity-local-column3:hover {
+        filter:brightness(95%);
+        text-decoration: none;
     }
 
     #carousel-inner-reflection {
