@@ -37,7 +37,7 @@
     }
     
     .nav-link:hover {
-        color: #444444 !important;
+        color: #D51968 !important;
       }
 
     .rotaractlogo {
@@ -55,6 +55,7 @@
     .rotaractlogo.scrolled {
         height: 8vh;
         width:15vw;
+        transition: 0.2s;
     }
 
     .dropdown-menu {
@@ -67,50 +68,51 @@
     }
 
     .sector {
-        height: 60vh;
+        height: 420px;
     }
     
     .sector-column {
         float: left;
         width: 25%;
         padding: 6%;
+        margin-top:20px;
     }
     
     .sector-column-text {
         font-family: Roboto;
         font-weight: 800;
-        font-size: 1.7vw;
+        font-size: 24px;
         text-align: center;
-        padding-top: 1.5vw;
+        padding-top: 20px;
     }
     
     .sector-clipart1 {
-        width: 14vw;
-        height: 25vh;
+        width: 180px;
+        height: 150px;
         display: block;
         margin-left:auto;
         margin-right:auto;
     }
 
     .sector-clipart4 {
-        width: 10vw;
-        height: 25vh;
+        width: 150px;
+        height: 150px;
         display: block;
         margin-left:auto;
         margin-right:auto;
     }
     
     .sector-clipart2 {
-        width: 12vw;
-        height: 25vh;
+        width: 165px;
+        height: 150px;
         display: block;
         margin-left:auto;
         margin-right:auto;
     }
     
     .sector-clipart3 {
-        width: 9vw;
-        height: 25vh;
+        width: 140px;
+        height: 150px;
         display: block;
         margin-left:auto;
         margin-right:auto;
@@ -382,7 +384,7 @@
 
 
 
-
+    }
 
 
 /* For mobiles & tablets  */
@@ -687,9 +689,20 @@ background-color:#DD2A7B
     font-family: Arvo;
     font-weight: 900;
     text-transform: uppercase;
-    text-align: center;
     padding-top: 35vh;
+    text-align: center;
     font-size: 3vw;
+    animation: type 2s steps(100, end);
+    width:100%;
+    overflow:hidden;
+    white-space:nowrap;
+    margin:0 auto;
 }
+@keyframes type{ 
+    from { 
+            width: 0%; 
+            } 
+        }
+
 
 
