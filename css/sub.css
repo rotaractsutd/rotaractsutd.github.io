@@ -1,0 +1,394 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* For desktops */
+@media screen and (min-width: 992px), (orientation: landscape) {
+
+    @media screen and (min-width: 992px) {
+        .navbar {
+            background: #26272b !important;
+            height: 10vh;
+            border-bottom: 1px solid whitesmoke !important;
+        }
+    
+        .nav-link {
+            color: whitesmoke !important;
+            font-size: 1.2vw !important;
+            font-weight: 500 !important;
+            font-family: Roboto;
+    
+        }
+    
+        .navbar-toggler {
+            background-color: #26272b !important;
+        }
+    
+        #collapsibleNavbar {
+            margin-right: -5%;
+        }
+        
+        .nav-link:hover {
+            color: #D51968 !important;
+          }
+    
+        .rotaractlogo {
+            height: 8vh;
+            width: 17vw;
+            float:left;
+            margin-left:-5%;
+        }
+
+        .titlehead {
+            margin-top: 15vh;
+            margin-bottom: 10vh;
+            text-align: center;
+        }
+    
+        
+    }
+
+    @media screen and (max-width: 991.5px){
+        .navbar {
+            background-color: #26272b !important;
+            border-bottom: 1px solid whitesmoke !important;
+        }
+    
+        .rotaractlogo {
+            height: 20vh;
+            width:40vw;
+        }
+    
+        .nav-link {
+            color: whitesmoke !important;
+            font-size: 3vw !important;
+            font-weight: 500 !important;
+            font-family: Roboto;
+    
+        }
+    
+        .navbar-toggler {
+            background-color: #26272b !important;
+        }
+
+        .titlehead {
+            margin-top: 30vh;
+            margin-bottom: 10vh;
+            text-align: center;
+        }
+    }
+
+
+    .titleword {
+        font-family: Arvo;
+        font-weight: 700;
+        font-size: 2.5vw;
+    }
+
+    .form-signup {
+        margin-top: 5vh;
+        text-align: center;
+    }
+
+
+
+
+}
+
+/* For mobiles & tablets  */
+@media screen and (max-width: 991.5px) and (orientation:portrait){
+    .navbar {
+        background-color: #26272b !important;
+        border-bottom: 1px solid whitesmoke !important;
+    }
+
+    .rotaractlogo {
+        height: 8vh;
+        width:40vw;
+    }
+
+    .nav-link {
+        color: whitesmoke !important;
+        font-size: 3vw !important;
+        font-weight: 500 !important;
+        font-family: Roboto;
+
+    }
+
+    .navbar-toggler {
+        background-color: #26272b !important;
+    }
+
+    .titlehead {
+        margin-top: 20vh;
+        text-align: center;
+        margin-bottom: 10vh;
+    }
+
+    .titleword {
+        font-family: Arvo;
+        font-weight: 700;
+        font-size: 8vw;
+    }
+
+    .form-signup {
+        margin-top: 5vh;
+        text-align:center;
+    }
+
+
+}
+
+
+.site-footer {
+    background-color:#26272b;
+    padding:45px 0 20px;
+    font-size:15px;
+    line-height:24px;
+    color:#737373;
+}
+
+.site-footer hr {
+    border-top-color:#bbb;
+    opacity:0.5
+}
+
+.site-footer hr.small {
+    margin:20px 0
+}
+
+.site-footer h6 {
+    color:#fff;
+    font-size:16px;
+    text-transform:uppercase;
+    margin-top:5px;
+    letter-spacing:2px
+}
+
+.site-footer a
+{
+color:#737373;
+}
+.site-footer a:hover
+{
+color:#3366cc;
+text-decoration:none;
+}
+.footer-links
+{
+padding-left:0;
+list-style:none
+}
+.footer-links li
+{
+display:block
+}
+.footer-links a
+{
+color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+color:#3366cc;
+text-decoration:none;
+}
+.footer-links.inline li
+{
+display:inline-block
+}
+.site-footer .social-icons
+{
+text-align:left
+}
+.site-footer .social-icons a
+{
+width:40px;
+height:40px;
+line-height:40px;
+margin-left:0px;
+margin-right:0;
+border-radius:100%;
+background-color:#33353d
+}
+.copyright-text
+{
+margin:0
+}
+@media (max-width:991px)
+{
+.site-footer [class^=col-]
+{
+margin-bottom:30px
+}
+}
+@media (max-width:767px)
+{
+.site-footer
+{
+padding-bottom:0
+}
+.site-footer .copyright-text,.site-footer .social-icons
+{
+text-align:center
+}
+}
+.social-icons
+{
+padding-left:0;
+margin-bottom:0;
+list-style:none
+}
+.social-icons li
+{
+display:inline-block;
+margin-bottom:4px
+}
+.social-icons li.title
+{
+margin-right:15px;
+text-transform:uppercase;
+color:#96a2b2;
+font-weight:700;
+font-size:13px
+}
+.social-icons a{
+background-color:#eceeef;
+color:#818a91;
+font-size:16px;
+display:inline-block;
+line-height:44px;
+width:44px;
+height:44px;
+text-align:center;
+margin-right:8px;
+border-radius:100%;
+-webkit-transition:all .2s linear;
+-o-transition:all .2s linear;
+transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+color:#fff;
+background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+line-height:34px;
+height:34px;
+width:34px;
+font-size:14px
+}
+.social-icons a.facebook:hover
+{
+background-color:#3b5998
+}
+.social-icons a.instagram:hover
+{
+background-color:#DD2A7B
+}
+@media (max-width:767px)
+{
+.social-icons li.title {
+    display:block;
+    margin-right:0;
+    font-weight:600
+}
+}
+
+.motto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.text_box {
+    line-height: 1.6;
+    font-size: 18px;
+    font-family: Verdana;
+}
+
+
+.copyright-text {
+    margin: 0
+}
+
+@media (max-width:991px) {
+    .site-footer [class^=col-] {
+        margin-bottom: 30px
+    }
+}
+
+@media (max-width:767px) {
+    .site-footer {
+        padding-bottom: 0
+    }
+
+        .site-footer .copyright-text, .site-footer .social-icons {
+            text-align: center
+        }
+}
+
+.social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+    .social-icons li {
+        display: inline-block;
+        margin-bottom: 4px
+    }
+
+        .social-icons li.title {
+            margin-right: 15px;
+            text-transform: uppercase;
+            color: #96a2b2;
+            font-weight: 700;
+            font-size: 13px
+        }
+
+    .social-icons a {
+        background-color: #eceeef;
+        color: #818a91;
+        font-size: 16px;
+        display: inline-block;
+        line-height: 44px;
+        width: 44px;
+        height: 44px;
+        text-align: center;
+        margin-right: 8px;
+        border-radius: 100%;
+        -webkit-transition: all .2s linear;
+        -o-transition: all .2s linear;
+        transition: all .2s linear
+    }
+
+        .social-icons a:active, .social-icons a:focus, .social-icons a:hover {
+            color: #fff;
+            background-color: #29aafe
+        }
+
+    .social-icons.size-sm a {
+        line-height: 34px;
+        height: 34px;
+        width: 34px;
+        font-size: 14px
+    }
+
+    .social-icons a.facebook:hover {
+        background-color: #3b5998
+    }
+
+    .social-icons a.instagram:hover {
+        background-color: #DD2A7B
+    }
+
+@media (max-width:767px) {
+    .social-icons li.title {
+        display: block;
+        margin-right: 0;
+        font-weight: 600
+    }
+}

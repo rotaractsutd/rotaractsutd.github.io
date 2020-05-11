@@ -27,6 +27,7 @@
             $(document).scroll(function () {
                 var $nav = $(".navbar");
                 var $logo = $(".rotaractlogo");
+
                 $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
                 $logo.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
 
@@ -48,17 +49,15 @@
     <header id="navbar">
 		<nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
 			<div class="container-lg">
-				<!-- Brand -->
-				<a href= "#" class="navbar-brand">
+
+				<a href= "index.html" class="navbar-brand">
 					<img class = "rotaractlogo" src="img/rotaract_logo.png" alt="whitelogo">
 				</a>
 		
-				<!-- Toggle Button -->
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 		
-				<!-- Navbar Links -->
 				<div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="collapsibleNavbar">
 					<ul class="navbar-nav ml-auto" id = "navword">
 						<li class="nav-item">
@@ -78,7 +77,7 @@
 							<a href="#" class="nav-link">Exco</a>
 						</li>
 						<li class="nav-item">
-							<a href="#" class="nav-link">Join Us</a>
+							<a href="join.html" class="nav-link">Join Us</a>
 						</li>
 					</ul>
 				</div>
@@ -243,10 +242,9 @@
     <div class = "cta-body">
         <p class = "cta-text-1" data-aos="fade-up" data-aos-anchor-placement="center-bottom">Have a <span class = "cta-impt">passion</span> to serve?</p>
         <p class = "cta-text-2" data-aos="fade-up" data-aos-anchor-placement="center-bottom"><span class = "cta-impt">Volunteer</span> with us today!</p>
-        <button class = "cta-join">Join Us</button>
+        <button class = "cta-join" onclick="location.href='join.html'">Join Us</button>
     </div>
 
-    <!-- Site footer -->
     <footer class="site-footer">
         <div class="container">
             <div class="row">

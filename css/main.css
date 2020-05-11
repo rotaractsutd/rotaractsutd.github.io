@@ -14,55 +14,6 @@
 
 /* For desktops */
 @media screen and (min-width: 992px), (orientation: landscape) {
-    /* .navbar {
-        background: transparent !important;
-        height: 150px;
-    }
-
-    .nav-link {
-        color: black !important;
-        font-size: 20px !important;
-        font-weight: 600 !important;
-        font-family: Roboto;
-
-    }
-
-    #collapsibleNavbar {
-        margin-right: -5%;
-    }
-    
-    .nav-link:hover {
-        color: #D51968 !important;
-      }
-
-    .rotaractlogo {
-        height: 120px;
-        width: 400px;
-        float:left;
-        margin-left:-5%;
-    }
-
-    .navbar.scrolled {
-        background-color: #fff !important;
-        transition: background-color 200ms linear;
-        border-bottom: 1px solid black !important;
-        height: 100px;
-      }
-    
-    .rotaractlogo.scrolled {
-        height: 80px;
-        width:280px;
-        transition: 0.2s;
-    }
-
-    .dropdown-menu {
-        background:transparent !important;
-        border: transparent !important;
-    }
-    
-    .dropdown-item {
-        color: black;
-    } */
 
     @media screen and (min-width: 992px) {
         .navbar {
@@ -172,57 +123,6 @@
         height: 80vh;
     }
 
-    /* .sector {
-        height: 420px;
-    }
-    
-    .sector-column {
-        float: left;
-        width: 25%;
-        padding: 6%;
-        margin-top:20px;
-    }
-    
-    .sector-column-text {
-        font-family: Roboto;
-        font-weight: 800;
-        font-size: 28px;
-        text-align: center;
-        padding-top: 20px;
-    }
-    
-    .sector-clipart1 {
-        width: 220px;
-        height: 190px;
-        display: block;
-        margin-left:auto;
-        margin-right:auto;
-    }
-
-    .sector-clipart4 {
-        width: 190px;
-        height: 190px;
-        display: block;
-        margin-left:auto;
-        margin-right:auto;
-    }
-    
-    .sector-clipart2 {
-        width: 205px;
-        height: 190px;
-        display: block;
-        margin-left:auto;
-        margin-right:auto;
-    }
-    
-    .sector-clipart3 {
-        width: 180px;
-        height: 190px;
-        display: block;
-        margin-left:auto;
-        margin-right:auto;
-    } */
-    
     .sector {
         height: 50vh;
     }
@@ -390,92 +290,6 @@
         filter:brightness(95%);
         text-decoration: none;
     }
-
-    /* #carousel-inner-reflection {
-        height: 600px;
-    }
-
-    .carousel-column-left {
-        float: left;
-        width:40%;
-        margin-top: 10vh;
-        
-    }
-    .carousel-column-right {
-        float:left;
-        width:45%;
-        margin-top: 10vh;
-    }
-    
-    .carousel-inner > .carousel-item > .carousel-column-left > .circle-frame{
-        width: 300px;
-        height: 310px;
-        display: block;
-        margin-left:auto;
-        margin-right:auto;
-    }
-
-    .carousel-inner > .carousel-item > .carousel-column-left > .circle-frame > img {
-
-        width: 100%;
-        height:100%;
-        border-radius: 50%;
-
-    }
-
-    .reflection-name {
-        text-align: center;
-        font-family: Arvo;
-        font-weight: 600;
-        text-transform: uppercase;
-        text-align: center;
-        font-size: 18px;
-        font-style: italic;
-        color: #6e6e6e;
-        padding-top: 20px;
-    }
-
-    .reflection-name-2 {
-        text-align: center;
-        font-family: Arvo;
-        font-weight: 600;
-        text-transform: uppercase;
-        text-align: center;
-        font-size: 18px;
-        font-style: italic;
-        color: #6e6e6e;
-        margin-top:-16px;
-    }
-
-
-
-    .reflection-text:before {
-        content: open-quote;
-        display: inline;
-        line-height: 0;
-        left: -10px;
-        position: relative;
-        top: 30px;
-        color: #D51968;
-        font-size: 3em;
-      }
-      .reflection-text:after {
-        content: close-quote;
-        display: inline;
-        line-height: 0;
-        left: 10px;
-        position: relative;
-        top: 35px;
-        color: #D51968;
-        font-size: 3em;
-      }
-
-      .reflection-text {
-        font-size: 30px;
-        quotes: "\201C" "\201D" "\2018" "\2019";
-        padding: 10px 20px;
-        line-height: 1.4;
-      } */
 
       #carousel-inner-reflection {
         height: 60vh;
@@ -682,6 +496,10 @@
         width: 100%;
         height: 40vh;
     }
+
+    .sector {
+        height: 60vh;
+    }
     
     .sector-column {
 
@@ -744,7 +562,6 @@
         height: 30vh;
         background-size: contain;
         background-size: cover;
-        transition: .45s ease;
         filter:brightness(65%);
     }
 
@@ -759,7 +576,6 @@
         height: 30vh;
         background-size: contain;
         background-size: cover;
-        transition: .45s ease;
         filter:brightness(65%);
 
     }
@@ -793,8 +609,8 @@
         background-size: contain;
         background-size: cover;
         filter:brightness(65%);
-        transition: .45s ease;
         margin-bottom:10%;
+
     }
 
     .activity-local-column2 {
@@ -808,7 +624,6 @@
         background-size: contain;
         background-size: cover;
         filter:brightness(65%);
-        transition: .45s ease;
         margin-bottom:10%;
     }
 
@@ -823,7 +638,6 @@
         background-size: contain;
         background-size: cover;
         filter:brightness(65%);
-        transition: .45s ease;
         margin-bottom:10vh;
     }
 
@@ -969,7 +783,7 @@
         padding: 8px 28px;
         text-align: center;
         font-size: 2vw;
-        opacity: 1;
+        opacity: 0.7;
         display: inline-block;
         text-decoration: none;
         cursor: pointer;
@@ -978,6 +792,12 @@
         font-weight:400;
         margin-top: 3vh;
         text-transform: uppercase;
+      }
+
+
+      .cta-join:hover {
+        opacity: 1;
+        border: 1px solid black;
       }
 
 
@@ -1248,11 +1068,7 @@ background-color:#DD2A7B
     }
 }
 
-.titlehead {
-    font-family: Arvo;
-    font-weight: 900;
-    text-transform: uppercase;
-}
+
 
 
 
