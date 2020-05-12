@@ -45,6 +45,37 @@
             margin-bottom: 10vh;
             text-align: center;
         }
+
+        .about-header {
+            margin-top: 15vh;
+            margin-bottom: 10vh;
+            margin-left: 10vw;
+            margin-right: 10vw;
+        }
+
+        .about-title {
+            margin-bottom: 3vh;
+        }
+
+        .about-title-text {
+            font-family: Arvo;
+            font-weight: 900;
+            font-size: 3vw;
+            color: #D51968;
+        }
+
+        .about-body {
+            margin-bottom: 8vh;
+        }
+
+        .textbody {
+            font-family: Roboto;
+            font-weight: 550;
+            font-size: 1.6vw;
+            line-height: 7vh;
+        }
+
+
     
         
     }
@@ -135,6 +166,35 @@
     .form-signup {
         margin-top: 5vh;
         text-align:center;
+    }
+
+    .about-header {
+        margin-top: 20vh;
+        margin-bottom: 15vh;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    .about-title {
+        margin-bottom: 2vh;
+    }
+
+    .about-title-text {
+        font-family: Arvo;
+        font-weight: 1000;
+        font-size: 5.5vw;
+        color: #D51968;
+    }
+
+    .about-body {
+        margin-bottom: 5vh;
+    }
+
+    .textbody {
+        font-family: Roboto;
+        font-weight: 550;
+        font-size: 3.5vw;
+        line-height: 4vh;
     }
 
 
