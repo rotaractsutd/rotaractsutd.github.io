@@ -45,38 +45,7 @@
             margin-bottom: 10vh;
             text-align: center;
         }
-
-        .about-header {
-            margin-top: 15vh;
-            margin-bottom: 10vh;
-            margin-left: 10vw;
-            margin-right: 10vw;
-        }
-
-        .about-title {
-            margin-bottom: 3vh;
-        }
-
-        .about-title-text {
-            font-family: Arvo;
-            font-weight: 900;
-            font-size: 3vw;
-            color: #D51968;
-        }
-
-        .about-body {
-            margin-bottom: 8vh;
-        }
-
-        .textbody {
-            font-family: Roboto;
-            font-weight: 550;
-            font-size: 1.6vw;
-            line-height: 7vh;
-        }
-
-
-    
+   
         
     }
 
@@ -122,8 +91,58 @@
         text-align: center;
     }
 
+    .wholebody {
+        margin-top: 15vh;
+        margin-bottom: 10vh;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
 
+    .about-title {
+        margin-bottom: 3vh;
+    }
 
+    .about-title-text {
+        font-family: Pacifico;
+        font-weight: 900;
+        font-size: 3vw;
+        color: #D51968;
+    }
+
+    .about-body {
+        margin-bottom: 8vh;
+    }
+
+    .textbody {
+        font-family: Roboto;
+        font-weight: 550;
+        font-size: 1.3vw;
+        line-height: 5vh;
+    }
+
+    .center-title {
+        font-size: 1.5vw;
+        font-family: Pacifico;
+        font-weight: 1000;
+        color:#D51968;
+        text-transform: capitalize;
+
+        width: 100%; 
+        text-align: center; 
+        border-bottom: 0.1vw solid #000; 
+        line-height: 0.5vh;
+        margin-top: 12vh;
+        margin-bottom: 5vh;
+
+    }
+
+    .center-title-body {
+        background:#fff; 
+        padding-left: 2vw;
+        padding-right:2vw; 
+    }
+
+    
 
 }
 
@@ -180,7 +199,7 @@
     }
 
     .about-title-text {
-        font-family: Arvo;
+        font-family: Pacifico;
         font-weight: 1000;
         font-size: 5.5vw;
         color: #D51968;
@@ -195,6 +214,28 @@
         font-weight: 550;
         font-size: 3.5vw;
         line-height: 4vh;
+    }
+
+    .center-title {
+        font-size: 3.5vw;
+        font-family: Pacifico;
+        font-weight: 1000;
+        color:#D51968;
+        text-transform: capitalize;
+
+        width: 100%; 
+        text-align: center; 
+        border-bottom: 0.1vw solid #000; 
+        line-height: 0.2vh;
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+
+    }
+
+    .center-title-body {
+        background:#fff; 
+        padding-left: 3vw;
+        padding-right:3vw; 
     }
 
 
