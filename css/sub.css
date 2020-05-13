@@ -150,6 +150,60 @@
         padding-right:2vw; 
     }
 
+    .overseas-field, .local-field {
+        height: 60vh;
+    }
+
+    .activity-field-column {
+        float:left;
+        width:33.3%;
+        margin-top: 5vh;
+    }
+
+    .activity-card {
+        box-shadow: 0 0.5vh 1vw 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 20vw;
+        height:50vh;
+        border-radius: 5px;
+        display: block;
+        text-decoration: none;
+        color: black;
+    }
+
+    .activity-card:hover {
+        box-shadow: 0 1.5vh 3vw 0 rgba(0,0,0,0.2);
+        filter:brightness(45%);
+        text-decoration: none;
+        
+      }
+
+    .activity-card-image {
+        border-radius: 5px 5px 0 0;
+        width:20vw;
+        height:30vh;
+    }
+
+    .activity-card-word {
+        margin-left: 1vw;
+    }
+
+    .activity-card-word-title {
+        font-family: Arvo;
+        font-weight: 600;
+        font-size: 1.3vw;
+    }
+
+    .activity-card-word-body {
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 1.1vw;
+        margin-bottom: -0.6vh;
+    }
+
+
+
+
     
 
 }
@@ -243,6 +297,58 @@
         margin-bottom: 15vh;
         margin-left: 10vw;
         margin-right: 10vw;
+    }
+
+    .overseas-field, .local-field {
+        height: 120vh;
+    }
+
+    .activity-field-column {
+        float:left;
+        width:100%;
+        margin-top: 5vh;
+    }
+
+    .activity-card {
+        box-shadow: 0 0.5vh 1vw 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width:80vw;
+        height: 55vh;
+        border-radius: 5px;
+        display: block;
+        text-decoration: none;
+        color: black;
+    }
+
+    .activity-card:hover {
+        box-shadow: 0 1.5vh 3vw 0 rgba(0,0,0,0.2);
+        filter:brightness(45%);
+        text-decoration: none;
+        
+      }
+
+    .activity-card-image {
+        border-radius: 5px 5px 0 0;
+        width:80vw;
+        height:30vh;
+    }
+
+    .activity-card-word {
+        margin-left: 3vw;
+    }
+
+    .activity-card-word-title {
+        font-family: Arvo;
+        font-weight: 600;
+        font-size: 5vw;
+        margin-top: 2vh;
+    }
+
+    .activity-card-word-body {
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 4vw;
+        margin-bottom: -0.5vh;
     }
 
 
