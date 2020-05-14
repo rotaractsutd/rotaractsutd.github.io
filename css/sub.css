@@ -150,7 +150,7 @@
         padding-right:2vw; 
     }
 
-    .overseas-field, .local-field {
+    .overseas-field, .local-field, .past-event-field {
         height: 60vh;
     }
 
@@ -199,6 +199,69 @@
         font-weight: 500;
         font-size: 1.1vw;
         margin-bottom: -0.6vh;
+    }
+
+    .upcoming-field {
+        height: 60vh;
+    }
+
+    .upcoming-container {
+        border-radius:5px;
+        color:black;
+        margin: auto;
+        width: 50vw;
+        margin-top: 10vh;
+        box-shadow: 0 0.5vh 1vw 0 rgba(0,0,0,0.2);
+
+    }
+
+    .upcoming-body {
+        width: 100%;
+        height: 10vh;
+        box-shadow: 0 0.1vh 0.1vw 0 rgba(0,0,0,0.2);
+    }
+
+    .upcoming-body:hover {
+        box-shadow: 0 1vh 1.5vw 0 rgba(0,0,0,0.2);
+    }
+
+    .upcoming-body-left {
+        float:left;
+        width: 20%;
+        background-color: #D51968;
+        color: #fff;
+        height: 10vh;
+        text-align: center;
+        border-bottom: 0.1vw solid #bbb;
+        border-radius: 5px;
+    }
+
+    .upcoming-body-right {
+        float:left;
+        width:80%;
+        height:10vh;
+    }
+
+    .upcoming-month {
+        font-family: Arvo;
+        font-weight: 600;
+        font-size: 1.2vw;
+        text-transform: uppercase;
+        
+    }
+    .upcoming-date {
+        margin-top:-3.5vh;
+        font-family: Arvo;
+        font-weight: 600;
+        font-size: 2.5vw;
+        text-transform: uppercase;
+    }
+
+    .upcoming-event-body {
+        margin-left: 1vw;
+        font-family: Roboto;
+        font-weight: 550;
+        font-size: 1.2vw;
     }
 
 
@@ -350,6 +413,11 @@
         font-size: 4vw;
         margin-bottom: -0.5vh;
     }
+
+    .past-event-field {
+        height:60vh;
+    }
+
 
 
 }
