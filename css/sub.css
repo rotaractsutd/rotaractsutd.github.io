@@ -264,6 +264,38 @@
         font-size: 1.2vw;
     }
 
+    .exco-body {
+        width: 40vw;
+        margin:auto;
+    }
+
+    .exco-name {
+        font-family: Roboto;
+        font-weight: 600;
+    }
+
+    #exco-box:hover {
+        box-shadow: 0 0.8vh 1.2vw 0 rgba(0,0,0,0.2);
+        color: #D51968;
+    }
+
+    .exco-title-border {
+        border-radius:15px;
+        background-color: #0275d8;
+    }
+
+    .exco-title-text {
+        margin-left: 1vw;
+        margin-right: 1vw;
+        color:white;
+        font-family: Arvo;
+        font-weight: 500;
+        font-size: 0.8vw;
+        
+    }
+
+
+
 
 
 
@@ -481,6 +513,38 @@
         font-weight: 550;
         font-size: 3.5vw;
         margin-top: 1vh;
+    }
+
+    .exco-name {
+        font-family: Roboto;
+        font-weight: 600;
+        font-size: 3vw;
+    }
+
+    #exco-box:hover {
+        box-shadow: 0 0.8vh 1.2vw 0 rgba(0,0,0,0.2);
+        color: #D51968;
+    }
+
+    .exco-title-border {
+        border-radius:100px;
+        background-color: #0275d8;
+        display: inline-block;
+        position: relative;
+        height:15px;
+        line-height: 10px;
+        
+    }
+
+    .exco-title-text {
+        margin-left: 1vw;
+        margin-right: 1vw;
+        color:white;
+        font-family: Arvo;
+        font-weight: 500;
+        font-size: 1.5vw;
+       
+
     }
 
 
