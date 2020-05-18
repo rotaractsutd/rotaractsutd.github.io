@@ -121,6 +121,7 @@
     .carousel-inner img {
         width: 100%;
         height: 80vh;
+        object-fit: cover;
     }
 
     .sector {
@@ -308,7 +309,7 @@
     }
     
     .carousel-inner > .carousel-item > .carousel-column-left > .circle-frame{
-        width: 18vw;
+        width: 15vw;
         height: 30vh;
         display: block;
         margin-left:auto;
@@ -494,7 +495,8 @@
 
     .carousel-inner img {
         width: 100%;
-        height: 30vh;
+        height: 40vh;
+        object-fit: cover;
     }
 
     .sector {
