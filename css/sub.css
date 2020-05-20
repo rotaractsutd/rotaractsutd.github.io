@@ -129,7 +129,7 @@
     }
 
     .center-title {
-        font-size: 1.5vw;
+        font-size: 1.7vw;
         font-family: Pacifico;
         font-weight: 1000;
         color:#D51968;
@@ -322,6 +322,22 @@
         margin-bottom: 8vh;
     }
 
+    .programme-video {
+        width: 50vw;
+        height:60vh;
+        margin-bottom: 8vh;
+
+    }
+
+    .programme-description {
+        font-style: italic;
+        font-family: 600;
+        font-size: 1.2vw;
+        margin-bottom:8vh;
+        margin-top:-8vh;
+
+    }
+
 
 
 
@@ -396,7 +412,7 @@
     }
 
     .center-title {
-        font-size: 3.5vw;
+        font-size: 4.5vw;
         font-family: Pacifico;
         font-weight: 1000;
         color:#D51968;
@@ -606,6 +622,22 @@
         font-weight: 500;
         font-size: 5vw;
         margin-bottom: 8vh;
+    }
+
+    .programme-video {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 8vh;
+
+    }
+
+    .programme-description {
+        font-style: italic;
+        font-family: 600;
+        font-size: 4vw;
+        margin-bottom:8vh;
+        margin-top:-4vh;
+
     }
 
 

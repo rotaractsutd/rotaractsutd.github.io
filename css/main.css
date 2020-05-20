@@ -366,13 +366,13 @@
         line-height: 0;
         left: 10px;
         position: relative;
-        top: 35px;
+        top: 30px;
         color: #D51968;
         font-size: 3em;
       }
 
       .reflection-text {
-        font-size: 2vw;
+        font-size: 1.7vw;
         quotes: "\201C" "\201D" "\2018" "\2019";
         padding: 10px 20px;
         line-height: 1.4;
@@ -432,7 +432,6 @@
 
       .cta-join:hover {
         opacity: 1;
-        border: 1px solid black;
       }
 
 
@@ -799,7 +798,6 @@
 
       .cta-join:hover {
         opacity: 1;
-        border: 1px solid black;
       }
 
 
