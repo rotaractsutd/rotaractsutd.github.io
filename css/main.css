@@ -78,8 +78,8 @@
         }
 
         .carousel-inner > .carousel-item > .carousel-column-left > .circle-frame{
-            width: 300px;
-            height: 300px;
+            width: 260px;
+            height: 260px;
             display: block;
             margin-left:auto;
             margin-right:auto;
@@ -95,9 +95,8 @@
     
         .reflection-name {
             text-align: center;
-            font-family: Arvo;
+            font-family: Roboto;
             font-weight: 600;
-            text-transform: uppercase;
             text-align: center;
             font-size: 20px;
             font-style: italic;
@@ -107,9 +106,8 @@
     
         .reflection-name-2 {
             text-align: center;
-            font-family: Arvo;
+            font-family: Roboto;
             font-weight: 600;
-            text-transform: uppercase;
             text-align: center;
             font-size: 20px;
             font-style: italic;
@@ -204,9 +202,8 @@
     
         .reflection-name {
             text-align: center;
-            font-family: Arvo;
+            font-family: Roboto;
             font-weight: 600;
-            text-transform: uppercase;
             text-align: center;
             font-size: 16px;
             font-style: italic;
@@ -216,9 +213,8 @@
     
         .reflection-name-2 {
             text-align: center;
-            font-family: Arvo;
+            font-family: Roboto;
             font-weight: 600;
-            text-transform: uppercase;
             text-align: center;
             font-size: 16px;
             font-style: italic;
@@ -262,7 +258,7 @@
 
 
     .intro-header {
-        height:80vh;
+        height:100vh;
         background-image: url("../img/wallpaper.png");
         background-repeat: no-repeat;
         background-position: center; 
@@ -275,7 +271,7 @@
         font-family: Arvo;
         font-weight: 900;
         text-transform: uppercase;
-        padding-top: 35vh;
+        padding-top: 45vh;
         text-align: center;
         font-size: 3vw;
         animation: type 2s steps(100, end);
@@ -363,7 +359,7 @@
     }
     
     .activity-ocip-column1:hover {
-        filter:brightness(95%);
+        filter:brightness(75%);
         text-decoration: none;
     }
     
@@ -377,15 +373,17 @@
         height: 50vh;
         background-size: contain;
         background-size: cover;
-    
         transition: .45s ease;
         filter:brightness(35%);
+
     }
 
     .activity-ocip-column2:hover {
-        filter:brightness(95%);
+        filter:brightness(75%);
         text-decoration: none;
+        
     }
+
     
     .activity-text {
         text-decoration: none;
@@ -397,6 +395,7 @@
         color: white;
         padding-top: 18vh;
         word-spacing: 999999px;
+        text-shadow: 1px 0 0;
     
     }
 
@@ -450,17 +449,17 @@
     }
 
     .activity-local-column1:hover {
-        filter:brightness(95%);
+        filter:brightness(75%);
         text-decoration: none;
     }
 
     .activity-local-column2:hover {
-        filter:brightness(95%);
+        filter:brightness(75%);
         text-decoration: none;
     }
 
     .activity-local-column3:hover {
-        filter:brightness(95%);
+        filter:brightness(75%);
         text-decoration: none;
     }
 
@@ -781,9 +780,8 @@
 
     .reflection-name {
         text-align: center;
-        font-family: Arvo;
+        font-family: Roboto;
         font-weight: 600;
-        text-transform: uppercase;
         text-align: center;
         font-size: 16px;
         font-style: italic;
@@ -793,9 +791,8 @@
 
     .reflection-name-2 {
         text-align: center;
-        font-family: Arvo;
+        font-family: Roboto;
         font-weight: 600;
-        text-transform: uppercase;
         text-align: center;
         font-size: 16px;
         font-style: italic;
