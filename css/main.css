@@ -18,12 +18,12 @@
     @media screen and (min-width: 992px) {
         .navbar {
             background: transparent !important;
-            height: 14vh;
+            height: 100px;
         }
     
         .nav-link {
             color: black !important;
-            font-size: 1.2vw !important;
+            font-size: 18px !important;
             font-weight: 600 !important;
             font-family: Roboto;
     
@@ -42,8 +42,8 @@
           }
     
         .rotaractlogo {
-            height: 12vh;
-            width: 25vw;
+            height: 80px;
+            width: 320px;
             float:left;
             margin-left:-5%;
         }
@@ -52,14 +52,100 @@
             background-color: #fff !important;
             transition: background-color 200ms linear;
             border-bottom: 1px solid black !important;
-            height: 10vh;
+            height: 80px;
           }
         
         .rotaractlogo.scrolled {
-            height: 8vh;
-            width:17vw;
+            height: 60px;
+            width:260px;
             transition: 0.2s;
         }
+
+        #carousel-inner-reflection {
+            height: 600px;
+        }
+    
+        .carousel-column-left {
+            float: left;
+            width:40%;
+            margin-top: 120px;
+            
+        }
+        .carousel-column-right {
+            float:left;
+            width:45%;
+            margin-top: 120px;
+        }
+
+        .carousel-inner > .carousel-item > .carousel-column-left > .circle-frame{
+            width: 300px;
+            height: 300px;
+            display: block;
+            margin-left:auto;
+            margin-right:auto;
+        }
+    
+        .carousel-inner > .carousel-item > .carousel-column-left > .circle-frame > img {
+    
+            width: 100%;
+            height:100%;
+            border-radius: 50%;
+    
+        }
+    
+        .reflection-name {
+            text-align: center;
+            font-family: Arvo;
+            font-weight: 600;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 20px;
+            font-style: italic;
+            color: #6e6e6e;
+            padding-top: 20px;
+        }
+    
+        .reflection-name-2 {
+            text-align: center;
+            font-family: Arvo;
+            font-weight: 600;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 20px;
+            font-style: italic;
+            color: #6e6e6e;
+            margin-top:-16px;
+        }
+    
+    
+    
+        .reflection-text:before {
+            content: open-quote;
+            display: inline;
+            line-height: 0;
+            left: -10px;
+            position: relative;
+            top: 30px;
+            color: #D51968;
+            font-size: 3em;
+          }
+          .reflection-text:after {
+            content: close-quote;
+            display: inline;
+            line-height: 0;
+            left: 10px;
+            position: relative;
+            top: 30px;
+            color: #D51968;
+            font-size: 3em;
+          }
+    
+          .reflection-text {
+            font-size: 28px;
+            quotes: "\201C" "\201D" "\2018" "\2019";
+            padding: 10px 20px;
+            line-height: 1.4;
+          }
     }
 
     @media screen and (max-width: 991.5px){
@@ -69,13 +155,13 @@
         }
     
         .rotaractlogo {
-            height: 20vh;
-            width:40vw;
+            height: 50px;
+            width:180px;
         }
     
         .nav-link {
             color: whitesmoke !important;
-            font-size: 3vw !important;
+            font-size: 16px !important;
             font-weight: 500 !important;
             font-family: Roboto;
     
@@ -84,6 +170,92 @@
         .navbar-toggler {
             background-color: #26272b !important;
         }
+
+        #carousel-inner-reflection {
+            height: 900px;
+        }
+
+        .carousel-column-left {
+
+            margin-top: 60px;
+            
+        }
+        .carousel-column-right {
+
+            margin-top: 60px;
+        }
+    
+    
+        .carousel-inner > .carousel-item > .carousel-column-left > .circle-frame{
+            width: 270px;
+            height: 270px;
+            display: block;
+            margin-left:auto;
+            margin-right:auto;
+        }
+    
+        .carousel-inner > .carousel-item > .carousel-column-left > .circle-frame > img {
+    
+            width: 100%;
+            height:100%;
+            border-radius: 50%;
+    
+        }
+    
+        .reflection-name {
+            text-align: center;
+            font-family: Arvo;
+            font-weight: 600;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 16px;
+            font-style: italic;
+            color: #6e6e6e;
+            padding-top: 5vh;
+        }
+    
+        .reflection-name-2 {
+            text-align: center;
+            font-family: Arvo;
+            font-weight: 600;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 16px;
+            font-style: italic;
+            color: #6e6e6e;
+            margin-top:-2vh;
+        }
+    
+    
+        .reflection-text:before {
+            content: open-quote;
+            display: inline;
+            line-height: 0;
+            left: -2.5vw;
+            position: relative;
+            top: 2.5vh;
+            color: #D51968;
+            font-size: 3em;
+          }
+          .reflection-text:after {
+            content: close-quote;
+            display: inline;
+            line-height: 0;
+            left: 2.5vw;
+            position: relative;
+            top: 3vh;
+            color: #D51968;
+            font-size: 3em;
+          }
+    
+          .reflection-text {
+            margin-top: 70px;
+            font-size: 24px;
+            quotes: "\201C" "\201D" "\2018" "\2019";
+            padding: 10px 20px;
+            line-height: 1.4;
+            text-align: center;
+          }
     }
 
 
@@ -292,91 +464,9 @@
         text-decoration: none;
     }
 
-      #carousel-inner-reflection {
-        height: 60vh;
-    }
 
-    .carousel-column-left {
-        float: left;
-        width:40%;
-        margin-top: 10vh;
-        
-    }
-    .carousel-column-right {
-        float:left;
-        width:45%;
-        margin-top: 10vh;
-    }
     
-    .carousel-inner > .carousel-item > .carousel-column-left > .circle-frame{
-        width: 15vw;
-        height: 30vh;
-        display: block;
-        margin-left:auto;
-        margin-right:auto;
-    }
 
-    .carousel-inner > .carousel-item > .carousel-column-left > .circle-frame > img {
-
-        width: 100%;
-        height:100%;
-        border-radius: 50%;
-
-    }
-
-    .reflection-name {
-        text-align: center;
-        font-family: Arvo;
-        font-weight: 600;
-        text-transform: uppercase;
-        text-align: center;
-        font-size: 1vw;
-        font-style: italic;
-        color: #6e6e6e;
-        padding-top: 2vh;
-    }
-
-    .reflection-name-2 {
-        text-align: center;
-        font-family: Arvo;
-        font-weight: 600;
-        text-transform: uppercase;
-        text-align: center;
-        font-size: 1vw;
-        font-style: italic;
-        color: #6e6e6e;
-        margin-top:-1.5vh;
-    }
-
-
-
-    .reflection-text:before {
-        content: open-quote;
-        display: inline;
-        line-height: 0;
-        left: -10px;
-        position: relative;
-        top: 30px;
-        color: #D51968;
-        font-size: 3em;
-      }
-      .reflection-text:after {
-        content: close-quote;
-        display: inline;
-        line-height: 0;
-        left: 10px;
-        position: relative;
-        top: 30px;
-        color: #D51968;
-        font-size: 3em;
-      }
-
-      .reflection-text {
-        font-size: 1.7vw;
-        quotes: "\201C" "\201D" "\2018" "\2019";
-        padding: 10px 20px;
-        line-height: 1.4;
-      }
 
       .cta-body {
         height:60vh;
@@ -669,13 +759,13 @@
     }
 
     #carousel-inner-reflection {
-        height: 80vh;
+        height: 900px;
     }
 
 
     .carousel-inner > .carousel-item > .carousel-column-left > .circle-frame{
-        width: 60vw;
-        height: 30vh;
+        width: 270px;
+        height: 270px;
         display: block;
         margin-left:auto;
         margin-right:auto;
@@ -695,7 +785,7 @@
         font-weight: 600;
         text-transform: uppercase;
         text-align: center;
-        font-size: 4vw;
+        font-size: 16px;
         font-style: italic;
         color: #6e6e6e;
         padding-top: 5vh;
@@ -707,7 +797,7 @@
         font-weight: 600;
         text-transform: uppercase;
         text-align: center;
-        font-size: 4vw;
+        font-size: 16px;
         font-style: italic;
         color: #6e6e6e;
         margin-top:-2vh;
@@ -736,7 +826,8 @@
       }
 
       .reflection-text {
-        font-size: 5vw;
+        margin-top: 70px;
+        font-size: 24px;
         quotes: "\201C" "\201D" "\2018" "\2019";
         padding: 10px 20px;
         line-height: 1.4;
