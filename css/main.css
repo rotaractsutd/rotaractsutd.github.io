@@ -758,7 +758,7 @@
     }
 
     #carousel-inner-reflection {
-        height: 900px;
+        height: 800px;
     }
 
 
@@ -824,7 +824,7 @@
 
       .reflection-text {
         margin-top: 70px;
-        font-size: 24px;
+        font-size: 18px;
         quotes: "\201C" "\201D" "\2018" "\2019";
         padding: 10px 20px;
         line-height: 1.4;
