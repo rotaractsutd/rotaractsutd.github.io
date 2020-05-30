@@ -674,8 +674,8 @@
 
 
     .carousel-inner > .carousel-item > .carousel-column-left > .circle-frame{
-        width: 20vh;
-        height: 35vw;
+        width: 60vw;
+        height: 30vh;
         display: block;
         margin-left:auto;
         margin-right:auto;
@@ -695,7 +695,7 @@
         font-weight: 600;
         text-transform: uppercase;
         text-align: center;
-        font-size: 3vw;
+        font-size: 4vw;
         font-style: italic;
         color: #6e6e6e;
         padding-top: 5vh;
@@ -707,7 +707,7 @@
         font-weight: 600;
         text-transform: uppercase;
         text-align: center;
-        font-size: 3vw;
+        font-size: 4vw;
         font-style: italic;
         color: #6e6e6e;
         margin-top:-2vh;
