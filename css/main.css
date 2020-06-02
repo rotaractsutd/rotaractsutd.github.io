@@ -359,7 +359,7 @@
     }
     
     .activity-ocip-column1:hover {
-        filter:brightness(75%);
+        filter:brightness(85%);
         text-decoration: none;
     }
     
@@ -379,7 +379,7 @@
     }
 
     .activity-ocip-column2:hover {
-        filter:brightness(75%);
+        filter:brightness(85%);
         text-decoration: none;
         
     }
@@ -449,17 +449,17 @@
     }
 
     .activity-local-column1:hover {
-        filter:brightness(75%);
+        filter:brightness(85%);
         text-decoration: none;
     }
 
     .activity-local-column2:hover {
-        filter:brightness(75%);
+        filter:brightness(85%);
         text-decoration: none;
     }
 
     .activity-local-column3:hover {
-        filter:brightness(75%);
+        filter:brightness(85%);
         text-decoration: none;
     }
 
