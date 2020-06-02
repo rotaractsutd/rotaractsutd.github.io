@@ -18,7 +18,7 @@
     @media screen and (min-width: 992px) {
         .navbar {
             background: transparent !important;
-            height: 100px;
+            height: 120px;
         }
     
         .nav-link {
@@ -42,7 +42,7 @@
           }
     
         .rotaractlogo {
-            height: 80px;
+            height: 100px;
             width: 320px;
             float:left;
             margin-left:-5%;
@@ -57,7 +57,7 @@
         
         .rotaractlogo.scrolled {
             height: 60px;
-            width:260px;
+            width:200px;
             transition: 0.2s;
         }
 
@@ -532,7 +532,7 @@
 @media screen and (max-width: 991.5px) and (orientation:portrait){
     .navbar {
         background-color: #26272b !important;
-        border-bottom: 1px solid whitesmoke !important;
+
     }
 
     .rotaractlogo {

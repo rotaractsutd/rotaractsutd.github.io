@@ -10,7 +10,7 @@
         .navbar {
             background: #26272b !important;
             height: 80px;
-            border-bottom: 1px solid whitesmoke !important;
+
         }
     
         .nav-link {
@@ -35,7 +35,7 @@
     
         .rotaractlogo {
             height: 60px;
-            width: 260px;
+            width: 200px;
             float:left;
             margin-left:-5%;
         } 
@@ -58,7 +58,7 @@
     @media screen and (max-width: 991.5px){
         .navbar {
             background-color: #26272b !important;
-            border-bottom: 1px solid whitesmoke !important;
+
         }
     
         .rotaractlogo {
