@@ -151,7 +151,7 @@
         padding-right:2vw; 
     }
 
-    .overseas-field, .local-field, .past-event-field {
+    .overseas-field, .local-field {
         height: 60vh;
     }
 
@@ -509,7 +509,7 @@
     }
 
     .past-event-field {
-        height:180vh;
+        height:120vh;
     }
 
     .upcoming-field {
