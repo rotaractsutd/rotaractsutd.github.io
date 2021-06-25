@@ -155,6 +155,10 @@
         height: 60vh;
     }
 
+    .past-event-field {
+        height: 120vh;
+    }
+    
     .activity-field-column {
         float:left;
         width:33.3%;
@@ -509,7 +513,7 @@
     }
 
     .past-event-field {
-        height:120vh;
+        height: 120vh;
     }
 
     .upcoming-field {
