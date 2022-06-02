@@ -292,13 +292,14 @@
         font-family: Arvo;
         font-weight: 600;
         text-transform: uppercase;
-        padding-top: 45vh;
+        padding-top: 50vh;
         text-align: center;
         font-size: 3vw;
         width:100%;
         overflow:hidden;
         white-space:nowrap;
         margin:0 auto;
+        margin-top: 10px;
     }
     .carousel-inner img {
         width: 100%;
