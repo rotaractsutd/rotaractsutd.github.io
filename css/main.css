@@ -280,12 +280,26 @@
         white-space:nowrap;
         margin:0 auto;
     }
+    
     @keyframes type{ 
         from { 
                 width: 0%; 
                 } 
             }
 
+    
+    #intro-subword {
+        font-family: Arvo;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding-top: 45vh;
+        text-align: center;
+        font-size: 3vw;
+        width:100%;
+        overflow:hidden;
+        white-space:nowrap;
+        margin:0 auto;
+    }
     .carousel-inner img {
         width: 100%;
         height: 80vh;
